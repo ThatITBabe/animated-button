@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    color: white;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #7d2ae8;
+    transition: all 0.2s ease;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+}
+
+button:active {
+    transform: scale(0.96);
+}
